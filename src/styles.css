@@ -10,3 +10,22 @@
   margin-left: 180px;
   border-radius: 100px;
 }
+.search-field {
+  font-family: "Manrope";
+  font-weight: lighter;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+  border-radius: 100px;
+  padding: 6px 10px;
+  border-width: thin;
+}
+.search-submit {
+  font-family: "Manrope";
+  font-weight: lighter;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+  padding: 6px 6px;
+  border-width: thin;
+  border-radius: 100px;
+  background-color: white;
+}
