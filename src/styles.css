@@ -61,10 +61,71 @@
   font-weight: 600;
   font-size: 30px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #tempsymbol {
   font-family: "Sora";
   font-weight: 400;
   font-size: 20px;
   color: white;
+  justify-content: center;
+  align-items: center;
+}
+#blows {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+}
+#speed {
+  font-family: "Sora";
+  font-weight: 500;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+.wind-blows {
+  font-family: "Sora";
+  font-weight: 300;
+  font-size: 10px;
+  color: white;
+  text-align: left;
+}
+#heat {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  color: white;
+}
+#humid {
+  font-family: "Sora";
+  font-weight: 500;
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+#percentage {
+  font-family: "Sora";
+  font-weight: 300;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+footer {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
