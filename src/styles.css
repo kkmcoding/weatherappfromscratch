@@ -1,5 +1,5 @@
 .weather-app {
-  background-color: #5a8fed;
+  background: linear-gradient(#5a8fed, #1048a8);
   max-width: 658px;
   margin: 30px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -46,7 +46,7 @@
 }
 .smoji {
   font-size: 100px;
-  margin: 0 230px 0 230px;
+  margin: 40%;
   width: 50%;
 }
 #city {
@@ -66,12 +66,10 @@
   align-items: center;
 }
 #tempsymbol {
-  font-family: "Sora";
+  font-family: "Manrope";
   font-weight: 400;
   font-size: 20px;
   color: white;
-  justify-content: center;
-  align-items: center;
 }
 #blows {
   font-family: "Manrope";
@@ -79,6 +77,7 @@
   font-size: 20px;
   text-align: left;
   color: white;
+  padding: 160px;
 }
 #speed {
   font-family: "Sora";
@@ -86,6 +85,7 @@
   text-align: left;
   font-size: 18px;
   color: white;
+  padding: 160px;
 }
 .wind-blows {
   font-family: "Sora";
@@ -98,27 +98,20 @@
   font-family: "Manrope";
   font-weight: 400;
   font-size: 20px;
-  text-align: right;
   color: white;
 }
 #humid {
   font-family: "Sora";
   font-weight: 500;
-  text-align: right;
   font-size: 18px;
   color: white;
-  display: flex;
-  justify-content: right;
-  align-items: right;
+  padding-left: 20px;
 }
 #percentage {
   font-family: "Sora";
   font-weight: 300;
   font-size: 10px;
   color: white;
-  display: flex;
-  justify-content: right;
-  align-items: right;
 }
 footer {
   font-family: "Manrope";
