@@ -14,7 +14,7 @@
   font-family: "Manrope";
   font-weight: lighter;
   color: #b3b3b3;
-  border-color: #b3b3b3;
+  border: none;
   border-radius: 100px;
   padding: 6px 10px;
   border-width: thin;
@@ -25,7 +25,7 @@
   color: #b3b3b3;
   border-color: #b3b3b3;
   padding: 6px 6px;
-  border-width: thin;
+  border: none;
   border-radius: 100px;
   background-color: white;
 }
