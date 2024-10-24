@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
-    <script></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app">
@@ -39,7 +39,10 @@
         <div id="time">16:36</div>
         <p2 class="smoji">🌤️</p2>
         <div id="city">Montreal</div>
-        <span id="temp">32<span id="tempsymbol">℃</span></span>
+        <span id="temp">
+          <span id="temperature-now">32</span>
+          <span id="tempsymbol">℃</span>
+        </span>
         <span id="blows">Wind</span> <span id="heat">Humidity</span>
         <span id="speed">32<span class="wind-blows">km/h</span></span
         ><span id="humid">87<span id="percentage">%</span></span>
