@@ -45,9 +45,9 @@
   color: white;
 }
 .smoji {
-  font-size: 100px;
-  margin: 40%;
-  width: 50%;
+  width: 70px;
+  height:70px;
+  margin-left: 44%;
 }
 #city {
   font-family: "Manrope";

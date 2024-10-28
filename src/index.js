@@ -4,14 +4,14 @@ function refreshWeather(response) {
   let cityElement = document.querySelector("#city");
   let humidityElement = document.querySelector("#humid");
   let windSpeedElement = document.querySelector("#speed");
-
   let timeElement = document.querySelector("#time");
   let dayElement = document.querySelector("#today");
   let date = new Date(response.data.time * 1000);
-
+  let iconElement = document.querySelector("#icon");
+  
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="smoji" />`;
   dayElement.innerHTML = formatDate(date);
   timeElement.innerHTML = formatTime(date);
-
   windSpeedElement.innerHTML = Math.round(response.data.wind.speed);
   humidityElement.innerHTML = response.data.temperature.humidity;
   cityElement.innerHTML = response.data.city;
@@ -20,6 +20,9 @@ function refreshWeather(response) {
 function formatTime(date) {
   let hours = date.getHours();
   let minutes = date.getMinutes();
+  if (minutes <10) {
+    minutes = `0${minutes}`;
+  }
   return `${hours}:${minutes}`;
 }
 function formatDate(date) {
